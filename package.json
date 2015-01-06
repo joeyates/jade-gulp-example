@@ -1,0 +1,15 @@
+{
+  "name": "jade-gulp-example",
+  "version": "0.0.1",
+  "description": "Examples of gulp configuration for serving jade templates",
+  "author": "Joe Yates",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-jade": "*"
+  },
+  "engine": "node >= 0.10.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeyates/jade-gulp-example"
+  }
+}

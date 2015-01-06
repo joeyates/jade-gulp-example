@@ -4,6 +4,7 @@
   "description": "Examples of gulp configuration for serving jade templates",
   "author": "Joe Yates",
   "devDependencies": {
+    "coffee-script": "*",
     "del": "*",
     "gulp": "*",
     "gulp-jade": "*"

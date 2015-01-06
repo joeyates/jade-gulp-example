@@ -3,7 +3,7 @@ gulp = require('gulp')
 jade = require('gulp-jade')
 
 gulp.task('templates', ->
-  return gulp.src('src/*.jade')
+  gulp.src('src/*.jade')
     .pipe(jade({}))
     .pipe(gulp.dest('dist/'))
 )

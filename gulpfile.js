@@ -7,4 +7,8 @@ gulp.task('templates', function() {
     .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('default', ['templates']);
+gulp.task('watch', function () {
+  gulp.watch('src/*.jade', ['templates']);
+});
+
+gulp.task('default', ['templates', 'watch']);
